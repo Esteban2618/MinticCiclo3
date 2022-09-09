@@ -2,6 +2,13 @@ public class Usuario {
 
     private String nombreEmpleado, email, empresaUsuario, rolUsuario;
 
+    public Usuario(String nombreEmpleado, String email, String empresaUsuario, String rolUsuario) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.email = email;
+        this.empresaUsuario = empresaUsuario;
+        this.rolUsuario = rolUsuario;
+    }
+
     public String getNombreEmpleado() {
         return nombreEmpleado;
     }
